@@ -1,0 +1,19 @@
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float n, sum = 0, CA; 
+    int i;
+
+    for (i = 0; true; i++)
+    {
+        cin >> n;
+        if (n == 0) break;
+        sum += n;
+    }
+    CA = sum / i;
+    cout << CA;
+    system("pause");
+}
