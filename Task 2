@@ -1,0 +1,17 @@
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float k, b, x, y;
+    cin >> k >> b >> x;
+
+    y = k * x + b;
+    if (x == 0 || y == 0) cout << "The point lies on the axes of the coordinate plane";
+    if (x > 0 && y > 0) cout << "1 quarter";
+    if (x < 0 && y > 0) cout << "2 quarter";
+    if (x < 0 && y < 0) cout << "3 quarter";
+    if (x > 0 && y < 0) cout << "4 quarter";
+    system("pause");
+}
