@@ -1,0 +1,23 @@
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float k, b, x, y, n;
+    cout << "k: ";
+    cin >> k;
+    cout << "b: ";
+    cin >> b;
+    cout << "n: ";
+    cin >> n;
+
+    for (int i = 0; i < n; i++)
+    {
+        cout << "y: ";
+        cin >> y;
+        x = (y - b) / k;
+        cout << x;
+    }
+    system("pause");
+}
